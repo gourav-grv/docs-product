@@ -18,7 +18,10 @@ You must solve this pattern in O11, before proceeding with the code migration to
 
 ### Solve in O11
 
-In O11, you can have public roles shared across domains. However, in ODC, public roles are not allowed.
+In ODC, Assets can now define and consume public roles. This capability enables roles to be shared across multiple Apps, removing the restriction previously described.
+
+How to solve
+If your architecture currently uses shared roles across domains in O11, you can directly leverage this feature in ODC without modifications to your domain structure.
 
 ![Diagram showing public roles shared across domains in O11](images/sharing-roles-across-domains-diag.png "Public Roles Across Domains")
 
